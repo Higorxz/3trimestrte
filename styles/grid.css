@@ -8,29 +8,35 @@
     text-align: center;
     margin-top: 25px;
     position: inherit;
-    
 }
-
-
 .titulo{
     font-size: 10px;
-    color:#4e6b66;
+    color: rgb(146, 83, 204);
     margin-bottom: 7px;
     text-align: center;
 }
-@media screen and (min-width:1024px) {
- .Imagem{
-    border: 3px solid black;
-    width: 300px!important;
-    height: 200px!important;
-  
- }
- .titulo{
-    font-family: var(--fonte-principal);
-    font-size: 30px;
-    color: black;
- }
- .gridimg{
-    background-color: #434d53;
- }
+.secao__banner{
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .gridimg{
+        background-color: rgb(137, 137, 255);
+    }
+    .Imagem{
+        border-top: 10px groove rgb(92, 33, 133);
+        border-left: 10px dotted rgb(231, 217, 12);
+        border-right: 10px solid rgb(223, 5, 5);
+        border-bottom: 10px dashed rgb(9, 9, 177);
+        width: 180px!important;
+        height: 160px!important;
+    }
+    .titulo{
+        font-size: 30px;
+        color: rgb(2, 46, 46);
+    }
+    .secao__banner{
+        width: 100%;
+        display: block;
+    }
 }
